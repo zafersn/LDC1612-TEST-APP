@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+"lst_ldc1612\startup_stm32f030x8.o"
+"lst_ldc1612\ldc_i2c.o"
+"lst_ldc1612\uart_communication.o"
+"lst_ldc1612\main.o"
+"lst_ldc1612\stm32f0xx_it.o"
+"lst_ldc1612\stm32f0xx_hal_msp.o"
+"lst_ldc1612\stm32f0xx_hal_i2c.o"
+"lst_ldc1612\stm32f0xx_hal_i2c_ex.o"
+"lst_ldc1612\stm32f0xx_hal_tim.o"
+"lst_ldc1612\stm32f0xx_hal_tim_ex.o"
+"lst_ldc1612\stm32f0xx_hal_uart.o"
+"lst_ldc1612\stm32f0xx_hal_uart_ex.o"
+"lst_ldc1612\stm32f0xx_hal_rcc.o"
+"lst_ldc1612\stm32f0xx_hal_rcc_ex.o"
+"lst_ldc1612\stm32f0xx_hal.o"
+"lst_ldc1612\stm32f0xx_hal_gpio.o"
+"lst_ldc1612\stm32f0xx_hal_dma.o"
+"lst_ldc1612\stm32f0xx_hal_cortex.o"
+"lst_ldc1612\stm32f0xx_hal_pwr.o"
+"lst_ldc1612\stm32f0xx_hal_pwr_ex.o"
+"lst_ldc1612\stm32f0xx_hal_flash.o"
+"lst_ldc1612\stm32f0xx_hal_flash_ex.o"
+"lst_ldc1612\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter "LST_LDC1612\LST_LDC1612.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LST_LDC1612.map" -o LST_LDC1612\LST_LDC1612.axf

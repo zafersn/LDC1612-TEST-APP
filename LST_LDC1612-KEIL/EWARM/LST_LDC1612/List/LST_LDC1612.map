@@ -1,0 +1,679 @@
+###############################################################################
+#
+# IAR ELF Linker V8.22.1.15669/W32 for ARM                24/Jan/2019  11:30:33
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Exe\LST_LDC1612.out
+#    Map file     =  
+#        C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\List\LST_LDC1612.map
+#    Command line =  
+#        -f C:\Users\arge\AppData\Local\Temp\EWBF79.tmp
+#        ("C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\CPK_Communication.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\excelKalman.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\kalmanArd.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\kalmanKagizman.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\LDC_i2c.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\main.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\SDK.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\startup_stm32f030x8.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_cortex.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_dma.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_flash.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_flash_ex.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_gpio.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_i2c.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_i2c_ex.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_msp.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_pwr.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_pwr_ex.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_rcc.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_rcc_ex.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_tim.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_tim_ex.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_uart.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_hal_uart_ex.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\stm32f0xx_it.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\system_stm32f0xx.o"
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj\UART_Communication.o"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb -o
+#        "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Exe\LST_LDC1612.out"
+#        --map "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\List\LST_LDC1612.map"
+#        --config "C:\Users\arge\Desktop\KRNK
+#        ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM/stm32f030x8_flash.icf"
+#        --semihosting --entry __iar_program_start "C:\Program Files (x86)\IAR
+#        Systems\Embedded Workbench 8.0\arm\CMSIS\Lib\IAR\iar_cortexM0l_math.a"
+#        --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x20001fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                       0xb4
+  .intvec            ro code  0x08000000    0xb4  startup_stm32f030x8.o [1]
+                            - 0x080000b4    0xb4
+
+"P1":                                     0x4394
+  .text              ro code  0x080000b4   0xe3c  stm32f0xx_hal_i2c.o [1]
+  .text              ro code  0x08000ef0   0x158  stm32f0xx_hal_msp.o [1]
+  .text              ro code  0x08001048     0x2  stm32f0xx_hal_i2c.o [1]
+  .rodata            const    0x0800104a     0x2  LDC_i2c.o [1]
+  .text              ro code  0x0800104c   0x948  LDC_i2c.o [1]
+  .text              ro code  0x08001994     0x2  stm32f0xx_hal_i2c.o [1]
+  .text              ro code  0x08001996     0x2  stm32f0xx_hal_i2c.o [1]
+  .text              ro code  0x08001998     0x2  stm32f0xx_hal_i2c.o [1]
+  .text              ro code  0x0800199a     0x2  stm32f0xx_hal_i2c.o [1]
+  .text              ro code  0x0800199c     0x2  stm32f0xx_hal_i2c.o [1]
+  .rodata            const    0x0800199e     0x2  LDC_i2c.o [1]
+  .text              ro code  0x080019a0    0x58  stm32f0xx_hal_dma.o [1]
+  .text              ro code  0x080019f8     0x2  stm32f0xx_hal_i2c.o [1]
+  .rodata            const    0x080019fa     0x2  LDC_i2c.o [1]
+  .text              ro code  0x080019fc   0x162  stm32f0xx_hal_cortex.o [1]
+  .rodata            const    0x08001b5e     0x2  LDC_i2c.o [1]
+  .text              ro code  0x08001b60   0x370  stm32f0xx_hal_gpio.o [1]
+  .text              ro code  0x08001ed0    0x20  stm32f0xx_hal.o [1]
+  .text              ro code  0x08001ef0    0x20  IxxToFlt.o [4]
+  .text              ro code  0x08001f10   0x4d8  SDK.o [1]
+  .text              ro code  0x080023e8     0xc  stm32f0xx_hal.o [1]
+  .text              ro code  0x080023f4   0x128  CPK_Communication.o [1]
+  .text              ro code  0x0800251c    0xe0  I32DivModFast.o [5]
+  .text              ro code  0x080025fc    0x6a  I64DivMod.o [5]
+  .text              ro code  0x08002666     0x8  abs.o [3]
+  .rodata            const    0x0800266e     0x2  LDC_i2c.o [1]
+  .text              ro code  0x08002670   0x3e4  UART_Communication.o [1]
+  .text              ro code  0x08002a54    0x5c  ABImemcpy.o [5]
+  .text              ro code  0x08002ab0     0x2  IntDivZer.o [5]
+  .rodata            const    0x08002ab2     0x2  LDC_i2c.o [1]
+  .text              ro code  0x08002ab4     0x2  I64DivZer.o [5]
+  .rodata            const    0x08002ab6     0x2  LDC_i2c.o [1]
+  .text              ro code  0x08002ab8    0x50  ABImemset.o [5]
+  .text              ro code  0x08002b08   0x854  stm32f0xx_hal_uart.o [1]
+  .text              ro code  0x0800335c    0xa0  stm32f0xx_hal_uart_ex.o [1]
+  .text              ro code  0x080033fc   0x10c  rand.o [3]
+  .text              ro code  0x08003508     0x2  stm32f0xx_hal_uart.o [1]
+  .rodata            const    0x0800350a     0x2  LDC_i2c.o [1]
+  .text              ro code  0x0800350c   0x6fc  stm32f0xx_hal_rcc.o [1]
+  .text              ro code  0x08003c08    0xf8  stm32f0xx_it.o [1]
+  .text              ro code  0x08003d00    0x24  stm32f0xx_hal.o [1]
+  .text              ro code  0x08003d24    0x10  stm32f0xx_hal.o [1]
+  .text              ro code  0x08003d34   0x23c  main.o [1]
+  .text              ro code  0x08003f70    0x20  stm32f0xx_hal.o [1]
+  .text              ro code  0x08003f90   0x144  stm32f0xx_hal_rcc_ex.o [1]
+  .text              ro code  0x080040d4    0xd0  stm32f0xx_hal_i2c_ex.o [1]
+  .text              ro code  0x080041a4    0x94  system_stm32f0xx.o [1]
+  .rodata            const    0x08004238    0x78  main.o [1]
+  .text              ro code  0x080042b0    0x3c  zero_init3.o [5]
+  .text              ro code  0x080042ec    0x30  copy_init3.o [5]
+  .text              ro code  0x0800431c    0x28  data_init.o [5]
+  .iar.init_table    const    0x08004344    0x24  - Linker created -
+  .text              ro code  0x08004368    0x1e  cmain.o [5]
+  .text              ro code  0x08004386     0x4  low_level_init.o [3]
+  .text              ro code  0x0800438a     0x8  exit.o [3]
+  .rodata            const    0x08004392     0x2  LDC_i2c.o [1]
+  .text              ro code  0x08004394     0xa  cexit.o [5]
+  .text              ro code  0x0800439e     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x080043a0    0x14  exit.o [6]
+  Initializer bytes  const    0x080043b4    0x14  <for P2-1>
+  .rodata            const    0x080043c8    0x10  stm32f0xx_hal_rcc.o [1]
+  .rodata            const    0x080043d8    0x10  stm32f0xx_hal_rcc.o [1]
+  .rodata            const    0x080043e8    0x10  system_stm32f0xx.o [1]
+  .text              ro code  0x080043f8    0x10  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004408     0xc  cstartup_M.o [5]
+  .rodata            const    0x08004414     0x8  system_stm32f0xx.o [1]
+  .text              ro code  0x0800441c     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x0800441e     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004420     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004422     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004424     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004426     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004428     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x0800442a     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x0800442c     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x0800442e     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004430     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004432     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004434     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004436     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004438     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x0800443a     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x0800443c     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x0800443e     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004440     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004442     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004444     0x2  startup_stm32f030x8.o [1]
+  .text              ro code  0x08004446     0x2  startup_stm32f030x8.o [1]
+  .rodata            const    0x08004448     0x0  zero_init3.o [5]
+  .rodata            const    0x08004448     0x0  copy_init3.o [5]
+                            - 0x08004448  0x4394
+
+"P2", part 1 of 3:                          0x14
+  P2-1                        0x20000000    0x14  <Init block>
+    .data            inited   0x20000000     0x4  LDC_i2c.o [1]
+    .data            inited   0x20000004     0x4  system_stm32f0xx.o [1]
+    .data            inited   0x20000008     0x8  rand.o [3]
+    .data            inited   0x20000010     0x1  LDC_i2c.o [1]
+    .data            inited   0x20000011     0x1  SDK.o [1]
+    .data            inited   0x20000012     0x1  SDK.o [1]
+    .data            inited   0x20000013     0x1  SDK.o [1]
+                            - 0x20000014    0x14
+
+"P2", part 2 of 3:                         0x280
+  .bss               zero     0x20000014    0x8c  UART_Communication.o [1]
+  .bss               zero     0x200000a0    0x84  rand.o [3]
+  .bss               zero     0x20000124    0x70  main.o [1]
+  .bss               zero     0x20000194    0x4c  main.o [1]
+  .bss               zero     0x200001e0    0x18  CPK_Communication.o [1]
+  .bss               zero     0x200001f8    0x18  CPK_Communication.o [1]
+  .bss               zero     0x20000210     0x4  kalmanArd.o [1]
+  .bss               zero     0x20000218     0x8  SDK.o [1]
+  .bss               zero     0x20000220     0x8  SDK.o [1]
+  .bss               zero     0x20000228     0x4  LDC_i2c.o [1]
+  .bss               zero     0x2000022c     0x4  SDK.o [1]
+  .bss               zero     0x20000230     0x4  SDK.o [1]
+  .bss               zero     0x20000234     0x4  SDK.o [1]
+  .bss               zero     0x20000238     0x4  SDK.o [1]
+  .bss               zero     0x2000023c     0x4  SDK.o [1]
+  .bss               zero     0x20000240     0x4  SDK.o [1]
+  .bss               zero     0x20000244     0x4  SDK.o [1]
+  .bss               zero     0x20000248     0x4  SDK.o [1]
+  .bss               zero     0x2000024c     0x4  SDK.o [1]
+  .bss               zero     0x20000250     0x4  SDK.o [1]
+  .bss               zero     0x20000254     0x4  stm32f0xx_hal.o [1]
+  .bss               zero     0x20000258     0x4  UART_Communication.o [1]
+  .bss               zero     0x2000025c     0x2  LDC_i2c.o [1]
+  .bss               zero     0x2000025e     0x2  LDC_i2c.o [1]
+  .bss               zero     0x20000260     0x2  LDC_i2c.o [1]
+  .bss               zero     0x20000262     0x2  LDC_i2c.o [1]
+  .bss               zero     0x20000264     0x2  SDK.o [1]
+  .bss               zero     0x20000266     0x2  SDK.o [1]
+  .bss               zero     0x20000268     0x2  SDK.o [1]
+  .bss               zero     0x2000026a     0x2  SDK.o [1]
+  .bss               zero     0x2000026c     0x2  SDK.o [1]
+  .bss               zero     0x2000026e     0x2  SDK.o [1]
+  .bss               zero     0x20000270     0x2  SDK.o [1]
+  .bss               zero     0x20000272     0x2  SDK.o [1]
+  .bss               zero     0x20000274     0x2  SDK.o [1]
+  .bss               zero     0x20000276     0x2  SDK.o [1]
+  .bss               zero     0x20000278     0x2  SDK.o [1]
+  .bss               zero     0x2000027a     0x2  SDK.o [1]
+  .bss               zero     0x2000027c     0x2  SDK.o [1]
+  .bss               zero     0x2000027e     0x2  SDK.o [1]
+  .bss               zero     0x20000280     0x1  LDC_i2c.o [1]
+  .bss               zero     0x20000281     0x1  LDC_i2c.o [1]
+  .bss               zero     0x20000282     0x1  LDC_i2c.o [1]
+  .bss               zero     0x20000283     0x1  LDC_i2c.o [1]
+  .bss               zero     0x20000284     0x1  LDC_i2c.o [1]
+  .bss               zero     0x20000285     0x1  LDC_i2c.o [1]
+  .bss               zero     0x20000286     0x1  LDC_i2c.o [1]
+  .bss               zero     0x20000287     0x1  LDC_i2c.o [1]
+  .bss               zero     0x20000288     0x1  LDC_i2c.o [1]
+  .bss               zero     0x20000289     0x1  LDC_i2c.o [1]
+  .bss               zero     0x2000028a     0x1  SDK.o [1]
+  .bss               zero     0x2000028b     0x1  SDK.o [1]
+  .bss               zero     0x2000028c     0x1  SDK.o [1]
+  .bss               zero     0x2000028d     0x1  SDK.o [1]
+  .bss               zero     0x2000028e     0x1  SDK.o [1]
+  .bss               zero     0x2000028f     0x1  SDK.o [1]
+  .bss               zero     0x20000290     0x1  SDK.o [1]
+  .bss               zero     0x20000291     0x1  SDK.o [1]
+                            - 0x20000292   0x27e
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x20000298   0x400  <Block>
+    CSTACK           uninit   0x20000298   0x400  <Block tail>
+                            - 0x20000698   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x27e:
+          0x20000014  0x27e
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x14:
+          0x080043b4   0x14
+    1 destination range, total size 0x14:
+          0x20000000   0x14
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                   ro code  ro data  rw data
+    ------                   -------  -------  -------
+C:\Users\arge\Desktop\KRNK ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj: [1]
+    CPK_Communication.o          296                48
+    LDC_i2c.o                  2 376       23       27
+    SDK.o                      1 240        3       95
+    UART_Communication.o         996               144
+    kalmanArd.o                                      4
+    main.o                       572      120      188
+    startup_stm32f030x8.o        242
+    stm32f0xx_hal.o              128                 4
+    stm32f0xx_hal_cortex.o       354
+    stm32f0xx_hal_dma.o           88
+    stm32f0xx_hal_gpio.o         880
+    stm32f0xx_hal_i2c.o        3 658
+    stm32f0xx_hal_i2c_ex.o       208
+    stm32f0xx_hal_msp.o          344
+    stm32f0xx_hal_rcc.o        1 788       32
+    stm32f0xx_hal_rcc_ex.o       324
+    stm32f0xx_hal_uart.o       2 134
+    stm32f0xx_hal_uart_ex.o      160
+    stm32f0xx_it.o               248
+    system_stm32f0xx.o           148       28        4
+    --------------------------------------------------
+    Total:                    16 184      206      514
+
+command line: [2]
+    --------------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    abs.o                          8
+    exit.o                         8
+    low_level_init.o               4
+    rand.o                       268        8      140
+    --------------------------------------------------
+    Total:                       288        8      140
+
+m6M_tl.a: [4]
+    IxxToFlt.o                    32
+    --------------------------------------------------
+    Total:                        32
+
+rt6M_tl.a: [5]
+    ABImemcpy.o                   92
+    ABImemset.o                   80
+    I32DivModFast.o              224
+    I64DivMod.o                  106
+    I64DivZer.o                    2
+    IntDivZer.o                    2
+    cexit.o                       10
+    cmain.o                       30
+    copy_init3.o                  48
+    cstartup_M.o                  12
+    data_init.o                   40
+    zero_init3.o                  60
+    --------------------------------------------------
+    Total:                       706
+
+shb_l.a: [6]
+    exit.o                        20
+    --------------------------------------------------
+    Total:                        20
+
+    Gaps                                             4
+    Linker created                         36    1 024
+------------------------------------------------------
+    Grand Total:              17 230      250    1 682
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08004344          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08004368          --   Gb  - Linker created -
+?main                   0x08004369         Code  Gb  cmain.o [5]
+AHBPrescTable           0x080043e8   0x10  Data  Gb  system_stm32f0xx.o [1]
+APBPrescTable           0x08004414    0x8  Data  Gb  system_stm32f0xx.o [1]
+BSL_Get_Random_Number   0x080026f1   0x12  Code  Gb  UART_Communication.o [1]
+CSTACK$$Base            0x20000298          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000698          --   Gb  - Linker created -
+Current_LDC_Config      0x20000262    0x2  Data  Gb  LDC_i2c.o [1]
+HAL_DMA_Abort_IT        0x080019a1   0x58  Code  Gb  stm32f0xx_hal_dma.o [1]
+HAL_Delay               0x08001ed1   0x20  Code  Wk  stm32f0xx_hal.o [1]
+HAL_GPIO_DeInit         0x08001d41  0x146  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x08001b61  0x1e0  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x08001ea1    0xc  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08001e87   0x1a  Code  Gb  stm32f0xx_hal_gpio.o [1]
+HAL_GetTick             0x080023e9    0xc  Code  Wk  stm32f0xx_hal.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                        0x080040d5   0x66  Code  Gb  stm32f0xx_hal_i2c_ex.o [1]
+HAL_I2CEx_ConfigDigitalFilter
+                        0x0800413b   0x62  Code  Gb  stm32f0xx_hal_i2c_ex.o [1]
+HAL_I2C_DeInit          0x08000181   0x42  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_ER_IRQHandler   0x0800037d   0x68  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_EV_IRQHandler   0x0800035f   0x1e  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_ErrorCallback   0x0800126b    0xe  Code  Gb  LDC_i2c.o [1]
+HAL_I2C_GetError        0x080003eb    0x4  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_GetState        0x080003e5    0x6  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_Init            0x080000b5   0xcc  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_MasterRxCpltCallback
+                        0x0800123f   0x16  Code  Gb  LDC_i2c.o [1]
+HAL_I2C_MasterTxCpltCallback
+                        0x08001255   0x16  Code  Gb  LDC_i2c.o [1]
+HAL_I2C_Master_Abort_IT
+                        0x080002fd   0x62  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_Master_Receive_IT
+                        0x08000263   0x92  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_Master_Transmit_IT
+                        0x080001d1   0x92  Code  Gb  stm32f0xx_hal_i2c.o [1]
+HAL_I2C_MspDeInit       0x08000fa9   0x28  Code  Gb  stm32f0xx_hal_msp.o [1]
+HAL_I2C_MspInit         0x08000f4f   0x5a  Code  Gb  stm32f0xx_hal_msp.o [1]
+HAL_IncTick             0x08003d25   0x10  Code  Wk  stm32f0xx_hal.o [1]
+HAL_Init                0x08003f71   0x1c  Code  Gb  stm32f0xx_hal.o [1]
+HAL_InitTick            0x08003d01   0x24  Code  Wk  stm32f0xx_hal.o [1]
+HAL_MspInit             0x08000ef1   0x5e  Code  Gb  stm32f0xx_hal_msp.o [1]
+HAL_NVIC_DisableIRQ     0x08001afb    0xe  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ      0x08001aed    0xe  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08001ad9   0x14  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x08003f91  0x124  Code  Gb  stm32f0xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x080039d1  0x15e  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08003bbb    0x6  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08003bc1   0x18  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08003b45   0x76  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x0800350d  0x4a8  Code  Gb  stm32f0xx_hal_rcc.o [1]
+HAL_RS485Ex_Init        0x0800335d   0x98  Code  Gb  stm32f0xx_hal_uart_ex.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x08001b15   0x22  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x08001b09    0xc  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x08001b55    0x8  Code  Gb  stm32f0xx_hal_cortex.o [1]
+HAL_UART_IRQHandler     0x08002d55  0x136  Code  Gb  stm32f0xx_hal_uart.o [1]
+HAL_UART_MspInit        0x08000fd1   0x5e  Code  Gb  stm32f0xx_hal_msp.o [1]
+HAL_UART_Receive        0x08002b09  0x114  Code  Gb  stm32f0xx_hal_uart.o [1]
+HAL_UART_Receive_IT     0x08002c93   0xbe  Code  Gb  stm32f0xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                        0x08003caf   0x22  Code  Gb  stm32f0xx_it.o [1]
+HAL_UART_Transmit_IT    0x08002c1d   0x76  Code  Gb  stm32f0xx_hal_uart.o [1]
+HAL_UART_TxCpltCallback
+                        0x0800268f    0xe  Code  Gb  UART_Communication.o [1]
+HardFault_Handler       0x08003c0b    0x4  Code  Gb  stm32f0xx_it.o [1]
+I2C1_IRQHandler         0x08003c83   0x22  Code  Gb  stm32f0xx_it.o [1]
+I2C_DMAAbort            0x08000d31   0x3e  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_Disable_IRQ         0x08000e59   0x98  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_Enable_IRQ          0x08000da5   0xa6  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_Flush_TXDR          0x08000cf9   0x26  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_ITAddrCplt          0x08000801   0xe8  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_ITError             0x08000bf9   0xfa  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_ITListenCplt        0x08000b8d   0x64  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_ITMasterCplt        0x0800099d   0xd8  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_ITMasterSequentialCplt
+                        0x080008e9   0x5a  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_ITSlaveCplt         0x08000a75  0x118  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_ITSlaveSequentialCplt
+                        0x08000943   0x5a  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_Master_ISR_DMA      0x08000691   0xf2  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_Master_ISR_IT       0x080003ef  0x16a  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_ReadLDCWhoAmI       0x080014d1   0x9a  Code  Gb  LDC_i2c.o [1]
+I2C_Slave_ISR_DMA       0x08000783   0x7e  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_Slave_ISR_IT        0x08000559  0x130  Code  Lc  stm32f0xx_hal_i2c.o [1]
+I2C_TransferConfig      0x08000d75   0x30  Code  Lc  stm32f0xx_hal_i2c.o [1]
+LDC_Abort_Transfers     0x08001279    0xc  Code  Gb  LDC_i2c.o [1]
+LDC_Config              0x080010bf   0x3a  Code  Gb  LDC_i2c.o [1]
+LDC_Config_All          0x08001571  0x138  Code  Gb  LDC_i2c.o [1]
+LDC_Control             0x080010f9  0x146  Code  Gb  LDC_i2c.o [1]
+LDC_Control{1}{2}{6}{7}::TASK_100MS
+                        0x20000289    0x1  Data  Lc  LDC_i2c.o [1]
+LDC_I2C_DeInit          0x08001285   0x18  Code  Gb  LDC_i2c.o [1]
+LDC_I2C_Error_Flag      0x20000283    0x1  Data  Gb  LDC_i2c.o [1]
+LDC_I2C_ReInit          0x080012a1   0x1a  Code  Gb  LDC_i2c.o [1]
+LDC_Read_Data           0x080017f1   0xee  Code  Gb  LDC_i2c.o [1]
+LDC_STATUS_DRDY         0x080018f1   0x86  Code  Gb  LDC_i2c.o [1]
+LDC_Sleep               0x080016a9   0x34  Code  Gb  LDC_i2c.o [1]
+LDC_Startup             0x0800104d   0x72  Code  Gb  LDC_i2c.o [1]
+LDC_Wakeup              0x080016dd   0x34  Code  Gb  LDC_i2c.o [1]
+MX_GPIO_Init            0x08003ec3   0x88  Code  Lc  main.o [1]
+MX_I2C1_Init            0x08003df5   0x74  Code  Lc  main.o [1]
+MX_USART1_UART_Init     0x08003e69   0x5a  Code  Lc  main.o [1]
+NMI_Handler             0x08003c09    0x2  Code  Gb  stm32f0xx_it.o [1]
+NVIC_DisableIRQ         0x08001a0b    0xe  Code  Lc  stm32f0xx_hal_cortex.o [1]
+NVIC_EnableIRQ          0x080019fd    0xe  Code  Lc  stm32f0xx_hal_cortex.o [1]
+NVIC_SetPriority        0x08001a19   0x8e  Code  Lc  stm32f0xx_hal_cortex.o [1]
+NVIC_SystemReset        0x080023f5   0x14  Code  Lc  CPK_Communication.o [1]
+PendSV_Handler          0x08003c11    0x2  Code  Gb  stm32f0xx_it.o [1]
+Region$$Table$$Base     0x08004344          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08004368          --   Gb  - Linker created -
+SDK_Clear_Reference     0x08002303   0x28  Code  Gb  SDK.o [1]
+SDK_Proximity_Average_Calculate
+                        0x080022a9   0x5a  Code  Gb  SDK.o [1]
+SDK_Proximity_Average_Calculate::avarageCnt
+                        0x20000290    0x1  Data  Lc  SDK.o [1]
+SDK_Proximity_Average_Calculate::averageProximity
+                        0x20000250    0x4  Data  Lc  SDK.o [1]
+SDK_Proximity_Average_Calculate::firstAvarageReadyFlag
+                        0x20000291    0x1  Data  Lc  SDK.o [1]
+SVC_Handler             0x08003c0f    0x2  Code  Gb  stm32f0xx_it.o [1]
+Startup_LDC_CLOCK_DIVIDERS_CH1
+                        0x0800266e    0x2  Data  Lc  LDC_i2c.o [1]
+Startup_LDC_CONFIG_SLEEP_DISABLE
+                        0x0800199e    0x2  Data  Lc  LDC_i2c.o [1]
+Startup_LDC_CONFIG_SLEEP_EN
+                        0x080019fa    0x2  Data  Lc  LDC_i2c.o [1]
+Startup_LDC_DRIVE_CURRENT_CH1
+                        0x08004392    0x2  Data  Lc  LDC_i2c.o [1]
+Startup_LDC_ERROR_CONFIG
+                        0x08001b5e    0x2  Data  Lc  LDC_i2c.o [1]
+Startup_LDC_MUX_CONFIG  0x0800104a    0x2  Data  Lc  LDC_i2c.o [1]
+Startup_LDC_OFFSET_CH1  0x0800350a    0x2  Data  Lc  LDC_i2c.o [1]
+Startup_LDC_RCOUNT_CH1  0x08002ab6    0x2  Data  Lc  LDC_i2c.o [1]
+Startup_LDC_SETTLECOUNT_CH1
+                        0x08002ab2    0x2  Data  Lc  LDC_i2c.o [1]
+SysTick_Config          0x08001aa7   0x32  Code  Lc  stm32f0xx_hal_cortex.o [1]
+SysTick_Handler         0x08003c13   0x70  Code  Gb  stm32f0xx_it.o [1]
+SystemClock_Config      0x08003d57   0x9e  Code  Gb  main.o [1]
+SystemCoreClock         0x20000004    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit              0x080041a5   0x68  Code  Gb  system_stm32f0xx.o [1]
+TASK_1000MS             0x20000285    0x1  Data  Gb  LDC_i2c.o [1]
+TASK_50MS               0x20000284    0x1  Data  Gb  LDC_i2c.o [1]
+UART_AdvFeatureConfig   0x08003043   0xde  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_CheckIdleState     0x08003135   0x1c  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_DMAAbortOnError    0x08003219   0x1a  Code  Lc  stm32f0xx_hal_uart.o [1]
+UART_EndRxTransfer      0x080031c1   0x20  Code  Lc  stm32f0xx_hal_uart.o [1]
+UART_EndTransmit_IT     0x080032a7   0x20  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_Receive_IT         0x080032c7   0x90  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_SetConfig          0x08002e91  0x1b2  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_Transmit_IT        0x08003233   0x74  Code  Gb  stm32f0xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x08003151   0x6a  Code  Gb  stm32f0xx_hal_uart.o [1]
+UC_Calculate_LRC        0x080026cd   0x24  Code  Gb  UART_Communication.o [1]
+UC_Check_Communication  0x08002787   0x7e  Code  Gb  UART_Communication.o [1]
+UC_Check_Communication::txTimeout
+                        0x20000258    0x4  Data  Lc  UART_Communication.o [1]
+UC_Check_Receive        0x08002805   0xd4  Code  Gb  UART_Communication.o [1]
+UC_Control_USART_Error  0x0800269d   0x30  Code  Gb  UART_Communication.o [1]
+UC_DOH                  0x20000014   0x8c  Data  Gb  UART_Communication.o [1]
+UC_IRQ_Virtual_RX       0x080028e5   0xb0  Code  Gb  UART_Communication.o [1]
+UC_IRQ_Virtual_Systick  0x08002999   0x8a  Code  Gb  UART_Communication.o [1]
+UC_Startup              0x08002671   0x1e  Code  Gb  UART_Communication.o [1]
+UC_Transmit_Message     0x08002703   0x84  Code  Gb  UART_Communication.o [1]
+USART1_IRQHandler       0x08003ca5    0xa  Code  Gb  stm32f0xx_it.o [1]
+_Error_Handler          0x08003f6d    0x4  Code  Gb  main.o [1]
+_Rand_idx               0x20000120    0x4  Data  Lc  rand.o [3]
+_Rand_rv                0x200000a0   0x80  Data  Lc  rand.o [3]
+_Randinit               0x20000008    0x1  Data  Gb  rand.o [3]
+_Randseed               0x2000000c    0x4  Data  Gb  rand.o [3]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20001fff         Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000         Data  Gb  command line/config [2]
+__aeabi_idiv            0x08002549         Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x08002ab1         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x08002549         Code  Gb  I32DivModFast.o [5]
+__aeabi_ldiv0           0x08002ab5         Code  Gb  I64DivZer.o [5]
+__aeabi_memcpy          0x08002a55         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x08002a7d         Code  Wk  ABImemcpy.o [5]
+__aeabi_memset          0x08002ab9         Code  Gb  ABImemset.o [5]
+__aeabi_ui2f            0x08001ef1         Code  Gb  IxxToFlt.o [4]
+__aeabi_uidiv           0x0800254f         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x0800254f         Code  Gb  I32DivModFast.o [5]
+__aeabi_uldivmod        0x080025fd         Code  Gb  I64DivMod.o [5]
+__cmain                 0x08004369         Code  Gb  cmain.o [5]
+__exit                  0x080043a1   0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word      0x08002ad9         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x08002ac5         Code  Gb  ABImemset.o [5]
+__iar_copy_init3        0x080042ed   0x30  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x0800431d   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x08004409         Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x080042b1   0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08004387    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f030x8.o [1]
+_call_main              0x08004375         Code  Gb  cmain.o [5]
+_exit                   0x08004395         Code  Gb  cexit.o [5]
+_main                   0x08004383         Code  Gb  cmain.o [5]
+abs                     0x08002667    0x8  Code  Gb  abs.o [3]
+angle                   0x20000210    0x4  Data  Gb  kalmanArd.o [1]
+calibre_TimeMS          0x20000000    0x4  Data  Lc  LDC_i2c.o [1]
+clearSdkRefFlag         0x2000028e    0x1  Data  Gb  SDK.o [1]
+compFarkTemp            0x20000244    0x4  Data  Lc  SDK.o [1]
+completionFlag          0x20000280    0x1  Data  Gb  LDC_i2c.o [1]
+completionFlagRX        0x20000282    0x1  Data  Gb  LDC_i2c.o [1]
+completionFlagTX        0x20000281    0x1  Data  Gb  LDC_i2c.o [1]
+cpkUartRxBuffer         0x200001f8   0x18  Data  Gb  CPK_Communication.o [1]
+cpkUartTxBuffer         0x200001e0   0x18  Data  Gb  CPK_Communication.o [1]
+exit                    0x0800438b    0x8  Code  Gb  exit.o [3]
+handleCommunication     0x08002409   0xe2  Code  Gb  CPK_Communication.o [1]
+hi2c1                   0x20000194   0x4c  Data  Gb  main.o [1]
+huart1                  0x20000124   0x70  Data  Gb  main.o [1]
+i2c_LDC_Read_Data       0x080013e1   0xd4  Code  Gb  LDC_i2c.o [1]
+i2c_master_read         0x08001371   0x70  Code  Gb  LDC_i2c.o [1]
+i2c_master_write        0x080012cd   0x78  Code  Gb  LDC_i2c.o [1]
+incSdkClearTimer        0x2000028c    0x1  Data  Gb  SDK.o [1]
+incSdkDetectTimer       0x2000028b    0x1  Data  Gb  SDK.o [1]
+isFirstt                0x20000013    0x1  Data  Gb  SDK.o [1]
+isModeTest              0x08001777   0x66  Code  Gb  LDC_i2c.o [1]
+isSleepMode             0x08001711   0x66  Code  Gb  LDC_i2c.o [1]
+ldcErrMSBStatus         0x20000288    0x1  Data  Gb  LDC_i2c.o [1]
+ldcIniStatus            0x20000010    0x1  Data  Gb  LDC_i2c.o [1]
+ldcInitRtryCnt          0x20000287    0x1  Data  Gb  LDC_i2c.o [1]
+ldcStatus               0x20000286    0x1  Data  Gb  LDC_i2c.o [1]
+main                    0x08003d35   0x22  Code  Gb  main.o [1]
+map                     0x08001f11   0x16  Code  Gb  SDK.o [1]
+negatifCompCnt          0x2000026c    0x2  Data  Gb  SDK.o [1]
+negatifSdkCompTresholdHigh
+                        0x20000274    0x2  Data  Gb  SDK.o [1]
+negatifSdkCompTresholdLow
+                        0x20000276    0x2  Data  Gb  SDK.o [1]
+positifCompCnt          0x2000026e    0x2  Data  Gb  SDK.o [1]
+proximityLPF            0x08001f27   0x50  Code  Gb  SDK.o [1]
+proximityLPF::prxLpfCnt
+                        0x2000028f    0x1  Data  Lc  SDK.o [1]
+proximityLPF::prxOrtalama
+                        0x20000248    0x4  Data  Lc  SDK.o [1]
+prxRefValue             0x2000022c    0x4  Data  Gb  SDK.o [1]
+rand                    0x080033fd   0xec  Code  Gb  rand.o [3]
+readSdkSettings         0x0800236d   0x3e  Code  Gb  SDK.o [1]
+sLDC_First_Reference_Update
+                        0x20000260    0x2  Data  Lc  LDC_i2c.o [1]
+sdkAlarmClearCnt        0x20000264    0x2  Data  Gb  SDK.o [1]
+sdkAlarmClearPeriod     0x20000266    0x2  Data  Gb  SDK.o [1]
+sdkClearCnt             0x2000023c    0x4  Data  Gb  SDK.o [1]
+sdkClearPeriod          0x20000240    0x4  Data  Gb  SDK.o [1]
+sdkCompPeriod           0x20000278    0x2  Data  Gb  SDK.o [1]
+sdkCompTresholdHigh     0x20000270    0x2  Data  Gb  SDK.o [1]
+sdkCompTresholdLow      0x20000272    0x2  Data  Gb  SDK.o [1]
+sdkControl              0x08001f8d  0x2de  Code  Gb  SDK.o [1]
+sdkControl::localSdkClear
+                        0x2000027a    0x2  Data  Lc  SDK.o [1]
+sdkControl::tempSdk     0x2000024c    0x4  Data  Lc  SDK.o [1]
+sdkControl::vRangeN     0x20000218    0x8  Data  Lc  SDK.o [1]
+sdkControl::vRangeP     0x20000220    0x8  Data  Lc  SDK.o [1]
+sdkControl::vranCountN  0x2000027c    0x2  Data  Lc  SDK.o [1]
+sdkControl::vranCountP  0x2000027e    0x2  Data  Lc  SDK.o [1]
+sdkDetectCnt            0x20000234    0x4  Data  Gb  SDK.o [1]
+sdkDetectPeriod         0x20000238    0x4  Data  Gb  SDK.o [1]
+sdkDetectTreshold       0x20000268    0x2  Data  Gb  SDK.o [1]
+sdkEnabled              0x20000011    0x1  Data  Gb  SDK.o [1]
+sdkErrorCnt             0x2000026a    0x2  Data  Gb  SDK.o [1]
+sdkErrorRetryCnt        0x2000028d    0x1  Data  Gb  SDK.o [1]
+sdkLevel                0x2000028a    0x1  Data  Gb  SDK.o [1]
+sdkProximityValue       0x20000230    0x4  Data  Gb  SDK.o [1]
+sdkStatus               0x20000012    0x1  Data  Gb  SDK.o [1]
+srand                   0x080034e9    0xa  Code  Gb  rand.o [3]
+task_1000ms_cnt         0x2000025e    0x2  Data  Gb  LDC_i2c.o [1]
+task_50ms_cnt           0x2000025c    0x2  Data  Gb  LDC_i2c.o [1]
+uwTick                  0x20000254    0x4  Data  Gb  stm32f0xx_hal.o [1]
+value                   0x20000228    0x4  Data  Gb  LDC_i2c.o [1]
+
+
+[1] = C:\Users\arge\Desktop\KRNK ARGE\PROJELER\SEN-LDC16-HW01\Firmware-1\SEN-LDC16-SW01\LST_LDC1612\LST_LDC1612\EWARM\LST_LDC1612\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  17 230 bytes of readonly  code memory
+     250 bytes of readonly  data memory
+   1 682 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
