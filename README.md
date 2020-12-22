@@ -8,3 +8,6 @@
 
 **Best Regards**
 
+## ABOUT PRODUCT:
+
+https://www.ti.com/product/LDC1612
